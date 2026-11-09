@@ -1,0 +1,32 @@
+{
+  "checked_on": "2026-10-28",
+  "source": "https://platform.claude.com/docs/en/about-claude/pricing",
+  "note": "USD per 1 million tokens, Claude API, standard (global) routing. Prices change: check the source page before quoting a client, then edit the numbers here.",
+  "models": {
+    "haiku": {
+      "id": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "input": 0.10,
+      "output": 0.50,
+      "cache_write_5m": 0.125,
+      "cache_read": 0.01,
+      "note": "prompts up to 100,000 tokens; above that: $0.50 in / $2.50 out"
+    },
+    "sonnet": {
+      "id": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "input": 2.00,
+      "output": 10.00,
+      "cache_write_5m": 2.50,
+      "cache_read": 0.10
+    },
+    "opus": {
+      "id": "claude-opus-5-5",
+      "name": "Claude Opus 5.5",
+      "input": 4.00,
+      "output": 20.00,
+      "cache_write_5m": 5.00,
+      "cache_read": 0.20
+    }
+  }
+}

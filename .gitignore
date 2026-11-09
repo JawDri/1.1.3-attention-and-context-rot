@@ -1,0 +1,18 @@
+# Keys never go online: your real key lives in your key file, outside this folder
+# (Windows: %USERPROFILE%\.ai-automation-from-scratch\.env, Mac / Linux: ~/.ai-automation-from-scratch/.env).
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# System files
+desktop.ini
+Thumbs.db
+.DS_Store
